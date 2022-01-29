@@ -1,0 +1,13 @@
+_1 = int(input("1 son"))
+_2 = int(input("2 son"))
+_3 = int(input("3 son"))
+def l (a,b,c):
+    if a<=b:
+        if a < c:
+            return a
+    elif c<=a:
+            return c
+    elif a>b:
+         if b <c:
+            return c
+print(l(_1,_2,_3))

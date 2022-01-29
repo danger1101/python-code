@@ -1,0 +1,9 @@
+from tkinter import*
+a = Tk()
+a.title("black_net")
+a.mainloop()
+
+
+
+
+

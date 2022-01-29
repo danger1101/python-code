@@ -1,0 +1,7 @@
+a = int(input("son kiritng"))
+def son (x):
+    if a%2==0:
+        print("juft")
+    else:
+        print("toq")
+b=son(a)

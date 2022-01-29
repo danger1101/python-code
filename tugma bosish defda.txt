@@ -1,0 +1,14 @@
+from tkinter import*
+a = Tk()
+a.title("black_net")
+def bos():
+    c = Label(a,text="man tugmani bosdm")
+    c.pack()
+b = Button(a,text = "meni bos",padx=50,pady=50,command=bos)
+b.pack()
+a.mainloop()
+
+
+
+
+

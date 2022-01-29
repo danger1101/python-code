@@ -1,0 +1,25 @@
+c = input("ki0riting")
+def a( *rangi):
+    malibu = {
+        "rang": "Qizil",
+        "model": "GM",
+        "tezlik": "122",
+        "narx": "14444"
+        }
+    if c == "malibu":
+        return malibu
+    
+
+    
+    nexia = {
+        "rang": "oq",
+        "madel": "chevrolet",
+        "tezlik": "1200",
+        "narx": "20 mil"
+
+
+    }
+    
+    if c== "nexia":
+        return(nexia)
+print(a(c))

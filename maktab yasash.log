@@ -1,0 +1,190 @@
+# salom doslar bu dasturda siz uzingizni shaxsiy maktabingizni
+# qurishingiz mumkin
+# eslatma:siz maktab deroktori bulaisz va uzingizga
+# uquvchi tanlab olaisz yana eng asosiysi
+# siz uqtuvchi tayyorlov litseyida uqigan bulishingiz kerak
+# siznini balingiz eng pasi 80 bal eng yuqorisi 110 bal bulishi kerak
+print("""salom siz bu pragrammada oz maktabingizni qurishingiz mumkun
+      uning uchun siz bizni teslarimizdan utishingiz kerak va bal miqdori yuqori bolishi kerak""")
+
+
+def a(ww):
+    qq = """salom siz bu pragrammada oz maktabingizni qurishingiz mumkun
+      uning uchun siz bizni teslarimizdan utishingiz kerak va bal miqdori yuqori bolishi kerak"""
+
+
+a = int(input("bal kiritng"))
+
+if a > 80:
+    print("siz balingzi yaxshi sizga testlarni taqdim etamiz")
+    _1savol = input("1 savol\nyoshlar bilan suxbatta blganmisiz")
+    # ha yoki yoq sozini kiritishingiz kerak
+    if _1savol == "yoq":
+        print("unda albatta suxbat qiling")
+if _1savol == "ha":
+    print("siz tugri ish qilgansiz\nalbatta bollar bilan suxbat qilish kerak")
+_2savol = int(input("2 savol\nbu soxada tajribangiz bormi\n1 tajribam bor\n2 tajribam yoq\n iltimos son kiritng"))
+# bu savolda  1 yoki 2
+if _2savol == 1:
+    print("bu sizga dars vaqtida yordam beradi")
+elif _2savol == 2:
+    print("unda bizni homiylarimiz tamonidan kurs ochilgan\nshu kurga borib organishingiz munkun")
+print("\n\nyana bir muammo bor\nsizning sogligingiz! yani VAKSINA olishingiz  kerak")
+# bu yerda ha sozini kiritng agar yoq sozini kiritsangiz dastur toxtaydi
+net = input("VAKSINA olishga tayormisiz")
+if net == "ha":
+    print("""siz hali vaksina olmagan ekansiz
+                     sizni omatingiz bor ekan negaki hozi shu yerda sizga VAKSINA  qilamiz
+                                                                                         DAVAY""")
+    qora = input("""bizda manashu vaksinalar bor\nsputnik v \n rus v \nusa v \n 
+         olmoqchi bulgan vaksinagizni kiritng {}""")
+    print(format(qora))
+    print("vaksinasini oldingiz sizga sersifikar taqdim etamiz\n\n")
+print("qoyil siz bizni sog'lomlashtirish agentligimizdan mofaqiyatli o'tingiz\nendi siz bemalol maktab ocha alasiz")
+print("\nsalom siz bizni agentligimizga xush kelibsiz")
+print("\nmaktab joyini tanlang")
+
+
+def joy():
+    print("namangan shaxar kod 1")
+    print("toshkent shaxar kod 2")
+    print("andijon shaxar kod 3")
+    print("xoarzm shaxar kod 4")
+
+
+joy()
+_2 = int(input("tanlagan joyni kodini kiritng"))
+if _2 == 1:
+    print("namangan shaxar tanlaganiz uchun raxmat sizga 50% chegirma beramiz")
+if _2 == 2:
+    print("toshkent shaxar tanlaganiz uchun raxmat sizga 40% chegirma beramiz")
+if _2 == 3:
+    print("andijon shaxar tanlaganiz uchun raxmat sizga 30% chegirma beramiz")
+if _2 == 4:
+    print("xorazm shaxar tanlaganiz uchun raxmat sizga 20% chegirma beramiz")
+
+print("maktab tilari")
+
+
+def til():
+    print("eng tili")
+    print("rus tili")
+    print("uzb tili")
+    print("arab tili")
+    print("nemis tili")
+
+
+til()
+_3 = str(input("maktab uchun tanlagan tilingizni kiritng"))
+if _3 == "eng tili":
+    print("eng tilini tanlaganiz uchun raxmat")
+if _3 == "rus tili":
+    print("rus tilini tanlaganiz uchun raxmat")
+if _3 == "uzb tili":
+    print("uzbek tilini tanlaganiz uchun raxmat")
+if _3 == "arab tili":
+    print("arab tilini tanlagzniz uchun minatdormiz")
+if _3 == "nemis tili":
+    print("nemis tilini tanlaganiz uchun raxmat")
+print("\n\nmaktab uchun spes fan tanlang")
+
+
+def fan():
+    print("kampiyuter savodxonligi kod 1")
+    print("IT soxasi kod 2")
+    print("tarjimonlar fani kod 3")
+    print("kocha savodxonligi kod 4")
+
+
+fan()
+_11 = int(input("maktab uchun tanlagan fanni kodini kiritng\t"))
+if _11 == 1:
+    print("kampiyuter savodxonligida asosan WORD EXCEL dasturlarida ishlanadi")
+if _11 == 2:
+    print(
+        "IT soxasini tanlab juda yaxshi ish qildingiz bizda asosan\nPYTHON\nJAVA\nC++\nC#\nKOTLIN\n dasturlash tillari o'tiladi")
+if _11 == 3:
+    print("siz tarjimonlar fanini o'rgatsangiz\nsizni o'quvchilariz turislar uchun tarjimonchi bo'lishadi")
+if _11 == 4:
+    print("sizni kochada momilez bo'masa sizga momila o'rgatamiz\nva eng asosiysi duxizni ko'taramiz")
+print("\no'zingizga maktab tanlang")
+
+
+def son():
+    print({"66 maktab", "63 maktab", "4 maktab", "prizizent maktabi"})
+
+
+son()
+mata = input("tanlagan maktabizni belgilang")
+if mata == "66 maktab":
+    print("66 maktabni tanlaganiz uchun raxmat")
+if mata == "63 maktab":
+    print("63 maktabni tanlaganiz uchun minatdormiz")
+if mata == "4 maktab":
+    print("4 maktabni tanlaganiz uchun raxmat")
+if mata == "prizizent maktabi":
+    print("prizizent maktabini tanlaganiz uchun sizdan prizizent  hursand")
+malumot = input("siz tanlagan maktab haqida malumot olish uchun\nmaktab nomini kiritng")
+if malumot == "66 maktab":
+    print("66 maktabni tanlab yaxshi ish qilgansiz negaki maktab sharoiti juda zo'r")
+if malumot == "63 maktab":
+    print(
+        "63 maktabni tanlab bekor ish qilibsiz maktab sharoiti talabga javob bermadi\nyana birgap maktab juda chekka joyda")
+if malumot == "4 maktab":
+    print("4 maktab narmani negaki u yeda hamma kocha bollari o'qigan")
+if malumot == "prizizent maktabi":
+    print("prizizent maktabiga gap bo'lishi munkunmas chunki sharoit zo'da")
+print("o'zingizgz o'tuvchi tanlang")
+
+
+def _99():
+    print({"arslanova nodra kod 1"})
+    print({"umarov abdulbosit kod 2"})
+    print({"sayfidinov nurillo kod 3"})
+    print({"tojidinov abdulbosit kod 4"})
+
+
+_99()
+_59 = int(input("tanlagan o'qtuvchiz kodini kiritng\t"))
+if _59 == 1:
+    print("siz arslanova nodraxonni tanladingiz sizga raxmat")
+if _59 == 2:
+    print("siz umarov abdulbosit tanladingiz sizga raxmat")
+if _59 == 3:
+    print("siz sayfidinov nurillo tanladingiz sizga raxmat")
+if _59 == 4:
+    print("siz tojidinov abdulbosit tanladingiz sizga raxmat")
+print("siz tanlagan o'qtuvchi haqida malumot olmoqchi bo'lsangiz")
+_03 = int(input("o'qtuvch kodini  kiritng\t"))
+if _03 == 1:
+    print("siz Arslanova Nodraxonni tanladingiz bu o'tuvchi juda zo'r\nbu o'tuvchini tariflashga til ojiz")
+if _03 == 2:
+    print("siz umarov abdulbosit tanladingiz U juda yaxshi o'tuvchi rooo bola")
+if _03 == 3:
+    print("siz sayfidinov nurillo tanladingiz U o'zi o'qtuvchi emas bir tiyinga qimmat")
+if _03 == 4:
+    print("siz tojidinov abdulbosit tanladingiz u juda yaxshi o'tuvchi bo'lsa kerak")
+_33 = str(input("o'quvchi tanlashga tayormisiz"))
+if _33 == "ha":
+    print("biz siz kelishingizdan oldin o'quvchilardan\ntest olib saralab olganmiz")
+    b = [1, ["a", "b"], 3, ["yoq", 1], 3, [4], [1, "O'QUVCHI TANLASH", [5], 7], "androit", [9, 12, 22], "c++",
+         [1, [5, [7]]]]
+    print(b[6][1])
+def sar ():
+    print(f"umarov abdulbosit kod {1}\nfazlidinov azizbek kod {2}\nkomiljanov bobirmirzo kod {3}\nHolmirzayev Fathiddin kod {4}")
+    print(f"mo'ydinov mubosher kod {5}\nhakimjznov hakim kod {6}\nabdullaxanov asatillo kod {7}\ntoshbayev toshtemir kod {8}")
+    print(f"Ataxanov abdulaxat kod {9}\narslanova nodra kod {10}")
+sar()
+aass = 0
+while aass < 5:
+    www = int(input("5 ta o'quvchini kiritng"))
+    aass = aass + 1
+daraja = str(input("maktab ochganizdan xursandmisiz "))
+if daraja == "ha":
+    print("biz agentligimiz tamonidan sizdan minatdormiz")
+tugadi = input("daturm yoqqan degan umitdaman\nxosh dasturm yoqdimi")
+if tugadi == "ha":
+    print("raxmat")
+
+
+

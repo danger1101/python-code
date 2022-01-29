@@ -1,0 +1,10 @@
+sonlar = list(range(11))
+kv = list(map(lambda x : x*x, sonlar))
+print(kv)
+
+
+
+
+
+
+

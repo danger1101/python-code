@@ -1,0 +1,133 @@
+a=(input ("ASSALOMU ALEYKUM XURMATLI MIJOZ BIZNING KATTA BOZORIMIZGA KIRISHNI XOXLAYSIZMI"))
+if a=="ha":
+ print ("raxmat bizning bozorimizda hamma narsalar sotiladi")
+if a=="yoq":
+ print ("afsus bizning bozorimizga keldingizmi demak bizning bozorimizda aylanishga majbursiz")
+b=(input ("xoxlagan narsangizni olishingiz mumkin xõsh olishni istaysizmi"))
+if a=="ha":
+
+ x=(input("boymisiz"))
+if x=="ha":
+ print ("unda bozoringizni bersin")
+ d=(input("bizning katta bozorimizda nimalar sotilishini kõrmoqchimisiz"))
+if d=="ha":
+ print ("marxamat kõring")
+w="1. mashinalar\n"
+e="2. salqin ichimliklar\n"
+r="3. oshxona ovqatlari\n"
+t="4. kiyim kechaklar\n"
+h="5. oyoq kiyimlar\n"
+print( w, e, r, t, h)
+print()
+o=(input("boy ekansiz bizning bozorimizga kelaganingiz uchun siz hozir bizning hamma narsamizdan olashingiz shart bizning bozorimizga hamma narsamizni oladigan odamlar keladi:"))
+print()
+
+
+
+
+if w=="mashinalar":
+ print ("raxmat siz mashinalarni tanladingiz")
+ print()
+ w1=("mashinalarimizni kõring")
+print ("gentra")
+print ("malubu 2")
+print ("nexia 1")
+print ("nexia 2")
+print ("nexia 3")
+print ("cobalt")
+print ("lacetti")
+v=(input("mashina nomini kiriting:"))
+if v=="gentra":
+ print ("bizning gentramiz 12 000$")
+if v=="malibu 2":
+ print ("malibu 2 25 000$")
+if v=="nexia 1":
+ print ("nexia 1 4 000$")
+if v=="nexia 2":
+ print ("nexia 2 5 000$")
+if v=="nexia 3":
+ print ("nexia 3 6 000$")
+if v=="cobalt":
+ print ("cobalt 8 000$")
+if v=="lacetti":
+ print ("lacetti 10 000$")
+ print()
+ 
+ 
+ 
+ 
+if e=="salqin ichimliklar":
+ print ("raxmat siz salqin ichimliklarni tanladingiz")
+ print()
+ print ("ichimliklarimmizni kõring")
+print ("flash")
+print ("miniral suv")
+print ("bez gaz suv")
+print ("adrinalin")
+c=(input("suv nomini kiriting"))
+if c=="flash":
+ print ("5 000, 8 000 som")
+if c=="miniral suv":
+ print ("2 000som")
+if c=="bez gaz suv":
+ print ("2 500som")
+if c=="adrinalin":
+ print ("5 000som")
+ print ()
+ 
+ 
+ 
+ 
+if r=="oshhona ovqatlari":
+ print ("raxmat siz oshxona ovqatlarini tanladingiz")
+ print()
+ print ("ovqatlarimmizni kõring")
+print ("somsa")
+print ("shashlik")
+print ("norin")
+print ("lavash")
+f=(input("ovqatlarni nomini kiriting"))
+if f=="somsa":
+ print ("kartoshkaligi 1 000som, gõshligi 5 000som")
+if f=="shashlik":
+ print ("8 000som")
+if f=="norin":
+ print ("12 000som")
+if f=="lavash":
+ print ("18 000som")
+print()
+
+
+
+
+if t=="kiyimlar":
+ print ("raxmat siz kiyimni tanladingiz")
+ print ("kiyimlar 2turga bõlinadi")
+print()
+t1=str(input("Qaysi bozorga kirmoqchi va narxini bilmoqchi bõlsangiz raqam kiriting 1ayollar 2 erkaklar"))
+ 
+if t1=="1":
+ print ("1-bozor: ayollar kiymi 100 000somdan boshlanadi turetski kiyim olasiz")
+if t1=="2":
+ print ("2-bozor: erkaklar kiyimi 200 000somdan boshlanadi sifatli kiyim olasiz")
+ print()
+ 
+ 
+ 
+ 
+if h=="oyoq kiyimlar":
+ print ("raxmat siz oyoq kiyimlarni tanladingiz")
+ print()
+ print ("oyoq kiyimlarimizni kõring")
+print ("krasofka")
+print ("tufli")
+print ("basanochka")
+z=str(input("oyoq kiyim nomini kiriting"))
+if z=="krasofka":
+ print ("krasofkamiz 150 000som")
+if z=="tufli":
+ print ("kattalaniki 150 000som kichiklaniki 100 000som")
+if z=="basanochka":
+ print ("basanochkamiz 120 000som")
+print()
+print ("BIZNING KATTA BOZORIMIZGA KIRIB XARID QILGANINGIZ UCHUN RAXMAT YANA KELIB TURING")

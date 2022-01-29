@@ -1,0 +1,18 @@
+a = str(input("siz"))
+bot = {"tosh","qaychi","qogoz"}
+c = bot. pop()
+print("siz",a,"bot",c)
+if a == c:
+    print("durang")
+elif a > c:
+    print("yuttingiz")
+if a < c:
+    print('qoldingiz')
+    
+    
+    
+    
+    
+    
+    
+    

@@ -1,0 +1,17 @@
+print(" Sayohlik agentligimizga xush kelibsiz")
+b = input("Malayziya, Dubai, Turkiya, Maldiva kabi davlatlarga borib dam olishni hohlaysizmi")
+if b == "ha":
+     print (input("Ism familiyangizni kiriting"))
+elif b ==" yo'q":
+     print("biz bilan muloqotda bo'lganingiz uchun rahmat sog' bo'ling")
+print("Malayziya\n","Dubai\n","Turkiya\n","Maldiva\n")
+e = input("quyifagi davlatlardan siz boradigan davlat kiriting")
+print("siz tanlagan davlat ",e)
+d = {"Malayziya":{" Malayziyada 2 kishilik bilet 700$ bu bir haftalik Mehmonaga joylashasiz Malayziya haqida qisqaca malumot Malayziya Persekutuan Tanah Malaysiu Janubiy-Sharqiy Osiyodagi davlat. Hududini Janubiy Xitoy dengizi ikkiga ajratib turadi; Gʻarbiy Malayziya Malayya Malakka yarim orolning janubda, Sharqiy Malayziya Kalimantal o.ning shimoliy qismida joylashgan. Maydoni 332,8 ming km². Aholisi 22,2 mln. kishi 2001 Poytaxti – Kuala-Lumpur shahri Maʼmuriy jihatdan 13 shtat va 2 federal hududga boʻlinadi"}}
+print(d[e])
+f = {"Dubai":{"Dubaiga 2 kishilik bilet 1000$ mehmonxona bilan ta'minlasiz Dubai haqida qisqacha malumotDubay — Birlashgan Arab Amirliklari tarkibidagi shahar hamda Dubay amirligining maʼmuriy markazi. Amiri Muhammad ibn Rashid al Maktum. Arabiston yarim orolning shimoliy-sharqida joylashgan. Aholisi 669,1 ming kishi 1995 Fors qoʻltigʻi sohilidagi yirik port. Aeroporti xalqaro ahamiyatga ega. Neft olinadigan rayonn markazi. Alyuminiy zavodi, quruq dok dunyoda eng yirik avtomobil taʼmirlash ustaxonalari, gaz suyultirish korxonalari, xalqaro kutubxona bor. Dubay jahondagi oltin savdosi markazlaridan biri. Mashinalar eng zoʻrlari binolar eslatib oʻtamiz dunyodagi eng baland bino Burj Xalifa ham mana shu yerda blandligi 828 m"}}
+print(f[e])
+g = {"Turkiya":{"Turkiyaning Istanbul shahriga bilet narxi 300$  Shahar haqida malumot Turkiya Respublikasi  Osiyoning gʻarbiy qismi va Yevropaning janubiy Turkiyaning poytaxti - Anqara shahri. Davlat tili - Turk tili. Maydoni — 783,562 km². Aholi soni 2019  83.154.997. Pul birligi — lira. Turkiya Respublikasi 81 ta viloyatlardan iborat."}}
+print(g[e])
+h = {"Maldiva":{"Maldivaga bilet narxi 500$ Maldiva haqida malumot Maldiv Janubiy Osiyoda, keanining shimoli gʻarbiy qismidagi Maldiv orollarida joylashgan davlat. Shri Lanka orolining janubi garbida. Maydoni 298 km2. Aholisi 324 ming kishi 2012 Poytaxti  Male shahri. Maʼmuriy jihatdan 20 orollar guruhiga boʻlinadi."}}
+print(h[e])

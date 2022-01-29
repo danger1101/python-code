@@ -1,0 +1,88 @@
+ism=str(input("Ism Familyangizni kiriting\n"))
+a=ism.title()
+print()
+print(a,"Siz faqat iqtisodiyot yo'nalishi bo'yicha natijalarni bilishingiz mumkin.\n"
+      " Iltimos To'plagan ballingizni kiriting")
+ball=float(input(""))
+if ball>113 and ball<141.5:
+    print("xurmatli",a,"Siz 'NamMqi' ga to'lov kontrakti asosida o'qishga qabul qilindingiz\n")
+if ball>125 and ball<164 :
+    print("xurmatli",a,"Siz 'NamMti' ga to'lov kontrakti asosida o'qishga qabul qilindingiz\n")
+if ball>135.4 and ball<182.7:
+    print("xurmatli",a,"Siz 'FarDU' ga to'lov kontrakti asosida o'qishga qabul qilindingiz\n")
+if ball>150.6 and ball<176.3:
+    print("xurmatli",a,"Siz 'Farg'ona Politexnika institutiga' ga to'lov kontrakti asosida o'qishga qabul qilindingiz\n")
+if ball>141.5 and ball<179.6:
+    print("xurmatli",a,"Siz 'BuxDu' ga to'lov kontrakti asosida o'qishga qabul qilindingiz\n") 
+if ball>98.1 and ball<189:
+    print("xurmatli",a,"Siz 'BuxMtI' ga to'lov kontrakti asosida o'qishga qabul qilindingiz\n")
+if ball>157.6 and ball<189:
+    print("xurmatli",a,"Siz 'UrDU' ga to'lov kontrakti asosida o'qishga qabul qilindingiz\n")
+if ball>147.4 and ball<176.2:
+    print("xurmatli",a,"Siz 'TerDU' ga to'lov kontrakti asosida o'qishga qabul qilindingiz\n")
+if ball>129.3 and ball<169.9:
+    print("xurmatli",a,"Siz 'O'zMU Jizzax filyali' ga to'lov kontrakti asosida o'qishga qabul qilindingiz\n")
+if ball>129.4 and ball<164:
+    print("xurmatli",a,"Siz 'NavDKI' ga to'lov kontrakti asosida o'qishga qabul qilindingiz\n")
+if ball>128.2 and ball<173:
+    print("xurmatli",a,"Siz 'SamDU' ga to'lov kontrakti asosida o'qishga qabul qilindingiz\n")
+if ball>125.3 and ball<144.8:
+    print("xurmatli",a,"Siz 'SamDAQI' ga to'lov kontrakti asosida o'qishga qabul qilindingiz\n")
+if ball>151 and ball<179.5:
+    print("xurmatli",a,"Siz 'SamISI' ga to'lov kontrakti asosida o'qishga qabul qilindingiz\n")
+if ball>129.7 and ball<176.2:
+    print("xurmatli",a,"Siz 'GulDU' ga to'lov kontrakti asosida o'qishga qabul qilindingiz\n")
+if ball>157 and ball<176.4:
+    print("xurmatli",a,"Siz 'O'zMU' ga to'lov kontrakti asosida o'qishga qabul qilindingiz\n")  
+if ball>173 and ball<189:
+    print("xurmatli",a,"Siz 'TDIU' ga to'lov kontrakti asosida o'qishga qabul qilindingiz\n")
+if ball>137.8 and ball<163.6:
+    print("xurmatli",a,"Siz 'TAQI' ga to'lov kontrakti asosida o'qishga qabul qilindingiz\n")
+if ball>141.2 and ball<169.9:
+    print("xurmatli",a,"Siz 'TTYSI' ga to'lov kontrakti asosida o'qishga qabul qilindingiz\n")
+if ball>150.6 and ball<179.4:
+    print("xurmatli",a,"Siz 'TDTU' ga to'lov kontrakti asosida o'qishga qabul qilindingiz\n")
+if ball>176.2 and ball<189:
+    print("xurmatli",a,"Siz 'TMI' ga to'lov kontrakti asosida o'qishga qabul qilindingiz\n")
+if ball>=141.5 and ball<=189:
+    print("xurmatli",a,"Siz 'NamMqi' ga Davlat granti asosida o'qishga qabul qilindingiz\n")
+if ball>=164 and ball<=189:
+    print("xurmatli",a,"Siz 'NamMti' ga Davlat granti asosida o'qishga qabul qilindingiz\n")
+if ball>=182.7 and ball<=189:
+    print("xurmatli",a,"Siz 'FarDU' ga Davlat granti asosida o'qishga qabul qilindingiz\n")
+if ball>=176.3 and ball<=189:
+    print("xurmatli",a,"Siz 'Farg'ona Politexnika institutiga' ga Davlat granti asosida o'qishga qabul qilindingiz\n")
+if ball>=179.6 and ball<=189:
+    print("xurmatli",a,"Siz 'BuxDU' ga Davlat granti asosida o'qishga qabul qilindingiz\n")
+if ball==189:
+   print("xurmatli",a,"Siz 'UrDU' ga Davlat granti asosida o'qishga qabul qilindingiz\n") 
+if ball>=176.2 and ball<=189:
+    print("xurmatli",a,"Siz 'TerDU' ga Davlat granti asosida o'qishga qabul qilindingiz\n")
+if ball>=169.9 and ball<=189:
+    print("xurmatli",a,"Siz 'O'zMU Jizzax filyali' ga Davlat granti asosida o'qishga qabul qilindingiz\n")
+if ball>=164 and ball<=189:
+    print("xurmatli",a,"Siz 'NavDKI' ga Davlat granti asosida o'qishga qabul qilindingiz\n")
+if ball>=173 and ball<=189:
+    print("xurmatli",a,"Siz 'SamDU' ga Davlat granti asosida o'qishga qabul qilindingiz\n")
+if ball>=144.8 and ball<=189:
+    print("xurmatli",a,"Siz 'SamDAQI' ga Davlat granti asosida o'qishga qabul qilindingiz\n")
+if ball>=179.5 and ball<=189:
+    print("xurmatli",a,"Siz 'SamISI' ga Davlat granti asosida o'qishga qabul qilindingiz\n")
+if ball>=176.2 and ball<=189:
+    print("xurmatli",a,"Siz 'GulDU' ga Davlat granti asosida o'qishga qabul qilindingiz\n")
+if ball>=176.4 and ball<=189:
+    print("xurmatli",a,"Siz 'O'zMU' ga Davlat granti asosida o'qishga qabul qilindingiz\n")
+if ball==189:
+    print("xurmatli",a,"Siz 'TDIU' ga Davlat granti asosida o'qishga qabul qilindingiz\n")
+if ball>=163.6 and ball<=189:
+    print("xurmatli",a,"Siz 'TAQI' ga Davlat granti asosida o'qishga qabul qilindingiz\n")
+if ball>=169.9 and ball<=189:
+    print("xurmatli",a,"Siz 'TTYSI' ga Davlat granti asosida o'qishga qabul qilindingiz\n")
+if ball>=179.4 and ball<=189:
+    print("xurmatli",a,"Siz 'TDTU' ga Davlat granti asosida o'qishga qabul qilindingiz\n")
+if ball==189:
+    print("xurmatli",a,"Siz 'TMI' ga Davlat granti asosida o'qishga qabul qilindingiz\n")
+if ball>189:
+    print("bunday ball mavjud emas")
+if ball<98.1:
+    print("Talabalikka tavsiya etilmadingiz")

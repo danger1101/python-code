@@ -1,0 +1,10 @@
+r=int(input("son"))
+w=int(input("son"))
+def oraliq(m, n):
+    sonlar= []
+    while m < n:
+        sonlar.append(m)
+        m+= 1
+    return sonlar
+print (oraliq(r,w))
+

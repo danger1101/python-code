@@ -1,0 +1,21 @@
+from tkinter import*
+a = Tk()
+a.title("black_net")
+e = Entry(a)
+e.pack()
+def bos():
+    c = Label(a,text="nodra")
+    c.pack()
+b = Button(a,text = "1 tugma\n siz uni tanismi",padx=50,pady=50,command=bos,fg="black",bg="red")
+b.pack()
+def ism():
+    c = Label(a,text="bilmadm")
+    c.pack()
+b = Button(a,text = "2 tugma\nu sini sevadimi",padx=50,pady=50,command=ism,fg="black",bg="red")
+b.pack()
+a.mainloop()
+
+
+
+
+

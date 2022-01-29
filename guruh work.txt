@@ -1,0 +1,149 @@
+a = "ASSALOMU ALAYKUM!!! BIZNING <<MOVAROUNNAHR ZIYO>> O'QUV MARKAZIMIZGA HUSH KELIBSIZ!!!"
+b = a.center(80)
+print(b)
+print()
+aa=str(input("O'quv markazimiz haqida ma'lumot olmoqchi bo'lsangiz 'ha'  so'zini kiriting: "))
+if aa==("ha"):
+    print("RAHMAT!!! Bilimga chanqoqligingiz bilindi") 
+    print()
+print("Bizning o'quv markazimizda ko'plab fanlardan kurslarimiz mavjud. Bular quyidagilar")
+print()
+q="1. Tarih\n"
+w="2. Matematika\n"
+e="3. Ona tili va adabiyot\n"
+r="4. Ingliz tili\n"
+t="5. Rus tili\n"
+y="6. Koreys tili\n"
+u="7. Yapon tili\n"
+i="8. Fransuz tili\n"
+print(q, w,e,r,t,y,u,i,)
+print()
+q=str(input("Qaysi kursimiz haqida ma'lomut olmoqchi bo'lsangiz fan nomini kiriting: "))
+if q==("tarih"):        
+   print("Rahmat!!! Siz tarih fani kursimiz haqida ma'lumot olmoqchi ekanligingizni bildirdingiz")
+   print("Tarih fani kursimiz 3 bosqichdan iborat")
+   print()
+   q1=str(input("Qaysi bosqichda o'qimoqchisiz va qancha pul to'laysiz bilmoqchi bo'lsangiz shu nomerni kiriting:"))
+   
+   if q1==("1"):
+       print("1-bosqich: har oy 600 000 so'mdan to'laysiz, tez-tezda o'rganasiz, <<lekin u yog'iga javob bermaymiz>>")
+   elif q1==("2"):
+           print("2-bosqich: har oy 300 000 so'mdan to'laysiz, asta sekin o'rganasiz <<lekin o'rganasiz>>")
+   elif q1==("3"):
+               print("3-bosqich: har oy 150 000 so'mdan to'laysiz, <<majburlikdan o'rganasiz>>")
+   else:
+    print("Iltimos bosqich buyicha hatolikka yul quymagan holatda kiriting")
+print()
+if q==("matematika"):
+    print("Rahmat!!! Siz Matematika fani kursimiz haqida ma'lumot olmoqchi ekanligingizni bildirdingiz")
+    print()
+    print("Matematika fani kursimiz 2 bosqichdan iborat")
+    q1=str(input("Qaysi bosqichda o'qimoqchisiz va qancha pul to'laysiz bilmoqchi bo'lsangiz, bosqichlardan birini raqam shaklida kiriting:"))
+    if q1==("1"):
+        print("Oylik tulov 500.000 sumdan.\nKursimiz 6 oygacha davom etadi. qiyin buladi, ammo urgansa buladi")
+    elif q1==("2"):
+        print("Oylik tulov 300.000 sumdan.\nKursimiz 9 oygacha davom etadi.")
+    else:
+        print("Bunday muddat mavjud emas")
+if q==("ona tili va adabiyoti"):
+    print("Siz Ona tili va Adabiyoti fanini tanladingiz")
+    print()
+    print("Ona tili va Adabiyoti fanimiz 4 bosqichdan iborat")
+    print()
+    q1=str(input("Qaysi bosqichda o'qimoqchisiz va qancha pul to'laysiz bilmoqchi bo'lsangiz,\n Bosqichlardan birini raqam shaklida kiriting:"))
+    if q1==("1"):
+        print("Oylik tulov 700.000 sumdam.\nKursimiz 3 oy davom etadi.\nTugri qimmat deyishingiz mumkin, ammo Ona tilimiz uchun 'stoit' narh")
+    elif q1==("2"):
+        print("Oylik tulov 500.000 sumdan.\nKursimiz 6 oy davom etadi.\nGuruhingizda 5 kishidan ortiq odam ta'lim olmaydi.")
+    elif q1==("3"):
+        print("Oylik tulov 300.000 sumdan.\nKursimiz 9 oy davom etadi.\nGuruhingizda maximum 15 kishi ta'lim oladi.")
+    elif q1==("4"):
+        print("Oylik tulov 200.000 sumdan.\nKursimiz 11 oy davom etadi.\nUzlashtirishingiz katta guruh birga ishlaganingiz uchun a'lo buladi deb umid qilamiz")
+    else:
+        print("Bunday bosqich mavjud emas.")
+if q==("ingliz tili"):
+    print("Rahmat!!!\nSiz Ingliz tili fanini tanladingiz.")
+    print()
+    print("Ingliz tili fani darsimiz 3 bosqichdan iborat.")
+    print()
+    q1=str(input("Qaysi bosqichda o'qimoqchisiz va qancha pul to'laysiz bilmoqchi bo'lsangiz, bosqichlardan birini raqam shaklida kiriting:"))
+    if q1==("1"):
+        print("Oylik tulov 1.000.000 dan.\nKursimiz 6 oygacha davom etadi.")
+        print("Qimmatku deyishga ham shoshilmang.\nO'qituvchi siz bilan siz tanlagan vaqtda, yakka tartibda shug'ullanadi.")
+        print("Barcha o'quv qullanmalar bilan O'quv markazimiz taminlaydi")
+    elif q1==("2"):
+        print("Oylik tulov 800.000 dan.\nKursimiz 9 oygacha davom etadi.")
+        print("Buni ham qimmat deyishga ham shoshilmang.\nO'qituvchi guruh bilan sizlar tanlagan vaqtda shug'ullanadi.")
+        print("Barcha o'quv qullanmalar bilan O'quv markazimiz taminlaydi.\nGuruhda 5 kishi ta'lim oladi")
+    elif q1==("3"):
+        print("Oylik tulov 500.000 dan.\nKursimiz 9 oygacha davom etadi.")
+        print("Barcha o'quv qullanmalar bilan O'quv markazimiz taminlaydi")
+    else:
+        print("Bunday bosqich mavjud emas.")
+if q==("rus tili"):
+    print("Rahmat!!!\nSiz Rus tili fanini tanladingiz.")
+    print()
+    print("Rus tili fani darsimiz 4  bosqichdan iborat.")
+    print()
+    q1=str(input("Qaysi bosqichda o'qimoqchisiz  va qancha pul to'laysiz bilmoqchi bo'lsangiz,bosqichlardan  birini raqam shaklida kiriting: "))
+    if q1==("1"):
+        print("Oylik to'lov 700000 so'mdan.\nKursimiz 9 oygacha davom etadi.")
+        print("Bunda siz ko'pi bilan 4 kishidan iborat guruhda chuqurlashtirilgan tartibda bilim olasiz ")
+    elif q1==("2"):
+        print("Oylik to'lov 550000 so'mdan.\nKursimiz 12 oygcha davom etadi.")
+        print("Bunda siz  ko'pi bilan 10  kishilik guruhda bilim olasiz. ")
+        print()
+    elif q1==("3"):
+        print("Oylik yo'lov 400000  so'mdan.\nKursimiz 15 oy davom etadi.")
+        print("Bunda siz 15 kishidan ko'p guruh azolari bilan birgalikda dars o'tasiz va bir maqol esingizdan chiqmasin ko'pchilik tom suvoqqa yaxshi.....")
+    elif q1==("4"):
+        print("Oylik to'lov 200000 so'mdan.\nKursimiz 18 oy davom etadi.")
+        print("Bunda siz guruhd eng kami 20 kishi bilan birglikda dars o'tasiz va esingizdan chiqarmang\n bunday guruhlarda dars o'tgandan metroda uyga vazifa bajarganingiz abzal oma... ")
+    else:
+        print("Bunday bosqich mavjud emas.")
+if q==("koreys tili"): 
+   print("Tashakkur!!!\nSiz Koreys tili fanini tanladingiz.")
+   print()
+   print("Koreys tili fani darsimiz 2 bosqichdan iborat.")
+   print()
+   q1=str(input("Qaysi bosqichda o'qimoqchisiz  va qancha pul to'laysiz bilmoqchi bo'lsangiz,bosqichlardan  birini raqam shaklida kiriting:"))
+   if q1==("1"):
+       print("Oylik to'lov 800000 so'mdan.\nKUrsimiz davomiyligi 18 oy.")
+       print("Bunda siz Koreys tili buyicha mutahasislar birga amaliyot utaysiz.")
+   elif q1==("2"):
+       print("Oylik tulov umuman yuq, hatto sizga tulov qilishadi.\nKursimiz davomiyligi sizga bog'liq.")
+       print("Bunda siz Koreyaga kelin yoki Kuyov bulasiz!!!")
+   else:
+        print("Bunday bosqich mavjud emas.")
+if q==("yapon tili"):
+    print("Rahmat!!!\nSiz Yapon tili fanini tanladingiz.")
+    print()
+    print("Yapon tili darsimiz 3 bosqichdan iborat.")
+    print()
+    q1=str(input("Qaysi bosqichda o'qimoqchisiz  va qancha pul to'laysiz bilmoqchi bo'lsangiz,bosqichlardan  birini raqam shaklida kiriting:"))       
+    if q1==("1"):
+        print("Oylik tulov 900.000 sumdan.\nBunda siz Yapon tiliga bog'liq audio darsliklardan ham foydalanasiz.")
+        print("Darsimiz dvomiyligi 7 oygacha.")
+    elif q1==("2"):
+        print("Oylik tulov 500.000 sumdan.\nDarsimiz davomiyligi 9 oy.")
+        print()
+    elif q1==("3"):
+        print("Oylik tulov 1.500.000 sumdan.\nDars davomiyligi 12 oy.")
+        print("Bunda sizning guruhda 7 kishi ta'lim oladi.")
+        print("Sungi 12 - oyda Yaponiya amaliyot utaysizlar.")
+    else:
+        print("Bunday bosqich mavjud emas.")
+if q==("fransuz tili"):
+    print("Tashakkur!!! Siz Fransuz tilini tanladingiz.")
+    print()
+    print("Fransuz tili darsimiz faqat 1 bosqichdan iborat.")
+    print()
+    q1=str(input("Qaysi bosqichda o'qimoqchisiz  va qancha pul to'laysiz bilmoqchi bo'lsangiz,bosqichlardan  birini raqam shaklida kiriting:"))       
+    if q1==("1"):
+        print("Oylik tulov 1.000.000 sumdan.\nDarsimiz davomiyligi 8 oy.")
+        print("Qimmat deyishga shoshilmang.\nBilasiz Fransuz tili eng guzal til.")
+        print("Guzallik hamisha 'QIMMAT'.")
+    else:
+        print("Bunday bosqich mavjud emas.")
+
+        

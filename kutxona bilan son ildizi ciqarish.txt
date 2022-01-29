@@ -1,0 +1,4 @@
+a = int (input("son"))
+from math import sqrt
+sonlar = sqrt(a)
+print(sonlar)

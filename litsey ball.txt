@@ -1,0 +1,308 @@
+print ("IMTIHON")
+def a(ball):
+    b=sum(ball)
+    c=len (ball)
+    d=b//c
+    return d
+def e (a):
+    if d >=100:
+        g="siz",d, "ball to'pladingiz va chorsu (Toshkent axborot texnologiyalar Universitetiga qabul qilindingiz)"
+    elif d >=80:
+        g="siz",d, "ball to'pladingiz va IT (Namangan Davlat UNiversitetiga qabul qilindingiz)"
+    elif d >=60:
+        g="siz",d, "ball to'pladingiz va vagzal (Namangan texnalogia Universitetiga qabul qilindingiz)"
+    else:
+        g="afsuski oliygoxga kira olmadingiz"
+    return g
+hg=(input("Imtihonga kirishni xoxlaysizmi"))
+if hg=="ha":
+    print ("bizda 3ta fandan imtihon bo'ladi tayyormisiz")
+if hg=="yoq":
+    print ("Unda Universitetga imtihon topshirmasangiz nega keldingiz. Ota-Onangiz shunga pul to'lagan uyalmaysizmi yoq degani qani imtihonga kiring")
+im=(input("bizda 3ta fandan imtihon bo'ladi ularda 10tadan savol bo'ladi topshirishga tayyormisiz"))
+if im=="ha":
+    print ("marxamat ko'ring")
+print ("matematika")
+print ("ona tili")
+print ("informatika")
+lp=(input("1-matematikadan topshirasiz tayyormisiz"))
+print ("1-savol")
+print ("A si  500, B si  509, C si  5000")
+aq=(input("204ga 305ni qo'shsak necha bo'ladi"))
+if aq=="a":
+    print ("xato")
+if aq=="b":
+    print ("to'g'ri")
+if aq=="c":
+    print ("xato")
+print("2-savol")
+print ("A si <, B si >, C si =")
+lk=(input("taqqoslang: 123 321"))
+if lk=="a":
+    print ("to'ri")
+if lk=="b":
+    print ("xato")
+if lk=="c":
+    print ("xato")
+print ("3-savol")
+print ("A si  12, B si  20, C si  10")
+aq=(input("133dan 123ni ayirsa necha bo'ladi"))
+if aq=="a":
+    print ("xato")
+if aq=="b":
+    print ("xato")
+if aq=="c":
+    print ("to'g'ri")
+print("4-savol")
+print ("A si 996, B si 509, C si 980")
+lk=(input("12ga 83ni ko'paytirsak necha bo'ladi"))
+if lk=="a":
+    print ("to'ri")
+if lk=="b":
+    print ("xato")
+if lk=="c":
+    print ("xato")
+print ("5-savol")
+print ("A si  54, B si  100, C si  89")
+aq=(input("356ni 4ga bo'lsak necha"))
+if aq=="a":
+    print ("xato")
+if aq=="b":
+    print ("xato")
+if aq=="c":
+    print ("to'g'ri")
+print("6-savol")
+print ("A si 64, B si 54, C si 34")
+lk=(input("x-24=40 misolni toping"))
+if lk=="a":
+    print ("to'ri")
+if lk=="b":
+    print ("xato")
+if lk=="c":
+    print ("xato")
+print ("7-savol")
+print ("A si 1235,54865 , B si 45456, 19729166667 , C si 5800, 1236 ")
+aq=(input("a=947, b=48,    a ni b ga ko'paytirib kegin bo'lsak necha bo'ladi"))
+if aq=="a":
+    print ("xato")
+if aq=="b":
+    print ("to'g'ri")
+if aq=="c":
+    print ("xato")
+print("8-savol")
+print ("A si 6476,1260, B si 7365,1200, C si 2989,1946,")
+lk=(input("3733ni 2743ga qo'shib keyin ayirsa necha bo'ladi"))
+if lk=="a":
+    print ("to'ri")
+if lk=="b":
+    print ("xato")
+if lk=="c":
+    print ("xato")
+print ("9-savol")
+print ("A si 43680,626, B si 35820,567, C si 25000,480")
+aq=(input("546ni 80ga k'paytirib qo'shsa necha"))
+if aq=="a":
+    print ("to'g'ri")
+if aq=="b":
+    print ("xato")
+if aq=="c":
+    print ("xato")
+print("10-savol")
+print ("A si 1.2288261516,154  B si  156,154, C si  1.999,266")
+lk=(input("827dan 673ni bo'lib ayirsa necha"))
+if lk=="a":
+    print ("to'ri")
+if lk=="b":
+    print ("xato")
+if lk=="c":
+    print ("xato")
+lp=(input("2-ona tilidan topshirasiz tayyormisiz"))
+print ("1-savol")
+print ("A si  3ta, B si  2ta, C si  5ta")
+aq=(input("salom so'zida necta unli harf bor"))
+if aq=="a":
+    print ("xato")
+if aq=="b":
+    print ("to'g'ri")
+if aq=="c":
+    print ("xato")
+print("2-savol")
+print ("A si 3ta, B si 4ta, C si 1ta")
+lk=(input("salom so'zida nechta undosh harf bor"))
+if lk=="a":
+    print ("to'ri")
+if lk=="b":
+    print ("xato")
+if lk=="c":
+    print ("xato")
+print ("3-savol")
+print ("A si  so'roq gap, B si  his-hayajon gap, C si  darag gap")
+aq=(input("bugun havo ochiq bo'lar ekan.Bu qanday gap"))
+if aq=="a":
+    print ("xato")
+if aq=="b":
+    print ("xato")
+if aq=="c":
+    print ("to'g'ri")
+print("4-savol")
+print ("A si so'roq, B si undov, C si ikkalasi ham to;g'ri")
+lk=(input("ismingiz nima.bu qanaqa gap"))
+if lk=="a":
+    print ("to'ri")
+if lk=="b":
+    print ("xato")
+if lk=="c":
+    print ("xato")
+print ("5-savol")
+print ("A si  24, B si  30ta, C si  29ta")
+aq=(input("alifboda nechta harf bor"))
+if aq=="a":
+    print ("xato")
+if aq=="b":
+    print ("xato")
+if aq=="c":
+    print ("to'g'ri")
+print("6-savol")
+print ("A si 6ta, B si 10ta, C si 23")
+lk=(input("nechta unli harf bor"))
+if lk=="a":
+    print ("to'ri")
+if lk=="b":
+    print ("xato")
+if lk=="c":
+    print ("xato")
+print ("7-savol")
+print ("A si 15, B si 23, C si 30 ")
+aq=(input("nechta undosh harf bor"))
+if aq=="a":
+    print ("xato")
+if aq=="b":
+    print ("to'g'ri")
+if aq=="c":
+    print ("xato")
+print("8-savol")
+print ("A si unli, B si undosh, C si to'g'ri javob yo'q")
+lk=(input("O harfi unli harfmi yoki undosh"))
+if lk=="a":
+    print ("to'g'ri")
+if lk=="b":
+    print ("xato")
+if lk=="c":
+    print ("xato")
+print ("9-savol")
+print ("A si undosh, B si unli, C si oddiy harf")
+aq=(input("S unli harfmi yoki undosh"))
+if aq=="a":
+    print ("to'g'ri")
+if aq=="b":
+    print ("xato")
+if aq=="c":
+    print ("xato")
+print("10-savol")
+print ("A si undov gap,  B si so'roq gap, C si darak gap")
+lk=(input("bugungi kunni yaxshiligini qarang.Bu qanday gap"))
+if lk=="a":
+    print ("to'ri")
+if lk=="b":
+    print ("xato")
+if lk=="c":
+    print ("xato")
+lp=(input("3-informatikadan topshirasiz tayyormisiz"))
+print ("1-savol")
+print ("A si  uzini tugmasi bor, B si  yon desak yonadi, C si ekranni ursak")
+aq=(input("kompyuterni qanday yoqamir"))
+if aq=="a":
+    print ("to'g'ri")
+if aq=="b":
+    print ("xato")
+if aq=="c":
+    print ("xato")
+print("2-savol")
+print ("A si puskka kirib zavirsheni rabotini bosamiz, B si o'ch desak o'chadi, C si tugmasini bossak o'chadi")
+lk=(input("kapyuterni qandan o'chiramiz"))
+if lk=="a":
+    print ("to'ri")
+if lk=="b":
+    print ("xato")
+if lk=="c":
+    print ("xato")
+print ("3-savol")
+print ("A si joy tashlash, B si saxranit qilish, C si ovazini o'chirish")
+aq=(input("uzun tugmacha nima vazifani bajaradi"))
+if aq=="a":
+    print ("to'g'ri")
+if aq=="b":
+    print ("xato")
+if aq=="c":
+    print ("xato")
+print("4-savol")
+print ("A si joy tashash, B si bergan buyrug'imizni bajaradi, C si vazifa bajarmaydi")
+lk=(input("enter nima vazifani bajaradi"))
+if lk=="a":
+    print ("xato")
+if lk=="b":
+    print ("to'ri")
+if lk=="c":
+    print ("xato")
+print ("5-savol")
+print ("A si kichik harfta yozish, B si faqat bosh harfta yozish, C si bosh harfta yozish")
+aq=(input("shift nima vazifani bajaradi"))
+if aq=="a":
+    print ("xato")
+if aq=="b":
+    print ("xato")
+if aq=="c":
+    print ("to'g'ri")
+print("6-savol")
+print ("A si faqat bosh harfta yozish, B si faqat kichik harfta yozish, C si harfta yozmaslik")
+lk=(input("caps lock nima vazifani bajaradi"))
+if lk=="a":
+    print ("to'ri")
+if lk=="b":
+    print ("xato")
+if lk=="c":
+    print ("xato")
+print ("7-savol")
+print ("A si raqam bilan yazish, B si katta-katta joy tashash, C si harflarni yozmaydigan qilib qo'yish")
+aq=(input("tab nima vazifani bajaradi"))
+if aq=="a":
+    print ("xato")
+if aq=="b":
+    print ("to'g'ri")
+if aq=="c":
+    print ("xato")
+print("8-savol")
+print ("A si biror buyrug'ni tepasidagi buyrug'ni bajaradi, B si biror buyrug'ni pastidagi buyrug'ni bajaradi, C si to'g'ri javob yo'q")
+lk=(input("num lock nima vazifani bajaradi"))
+if lk=="a":
+    print ("to'g'ri")
+if lk=="b":
+    print ("xato")
+if lk=="c":
+    print ("xato")
+print ("9-savol")
+print ("A si vazifa bajarmaydi, B si kompyuterda ishlashga yordamlashadi, C si ikkalasi ham to'g'ri")
+aq=(input("mishka nima vazifani bajaradi"))
+if aq=="a":
+    print ("xato")
+if aq=="b":
+    print ("to'g'ri")
+if aq=="c":
+    print ("xato")
+print("10-savol")
+print ("A si hech narsa dep atalmaydi,  B si bilmayman, C si klaviatura")
+lk=(input("harflar raqamlar to'plami nima dep ataladi"))
+if lk=="a":
+    print ("xato")
+if lk=="b":
+    print ("xato")
+if lk=="c":
+    print ("to'g'ri")
+a1=int(input("1-fanda ball"))
+a2=int(input("2-fandan ball"))
+a3=int(input("3-fandan ball"))
+a4=a1,a2,a3
+d=a(a4)
+print (d)
+g=e(a)
+print (g)

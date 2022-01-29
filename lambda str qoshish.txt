@@ -1,0 +1,3 @@
+a = lambda x , d: x + d
+print(a("python","java"))
+

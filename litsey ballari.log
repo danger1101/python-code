@@ -1,0 +1,26 @@
+print("IMTIHON")
+print("siz kirishingiz mumkin bolgan oliygohlar \n chorsu (BALL 80dan yuqori) \n IT (BALL 60dan yuqori) \n vagzal (BALL  50da yuqori ")
+def a(ball):
+    b = sum (ball)
+    c = len (ball)
+    d = b//c
+    return d
+def e (a):
+    if d >=80:
+        g= "siz", d , "ball topladingiz va  chorsu (Toshkent axborot texnologiyalari Universitetiga qabul qilindingiz)"
+    elif d >=60:
+        g = "siz", d , "ball topladingiz va  IT (Namangan Davlat Universitetiga qabul qilindingiz"
+    elif d>=50:
+        g = "siz", d , "ball topladingiz va  vagzal (Namangan texnologiya Universitetiga qabul qilindingiz"
+    else:
+        g= "afsuski oliygohga kira olmadingiz"
+    return g
+a1 = int(input("1- fandan yig'gan balingiz__< \t"))
+a2 =int(input("2- fandan yig'gan balingiz__< \t"))
+a3 = int(input("3- fandan yig'gan balingiz__<\t "))
+a4 = a1,a2,a3
+d= a(a4)
+print(d)
+g = e(a)
+print(g)
+

@@ -1,0 +1,15 @@
+a=int(input("bilmoqchi bo'lgan sonni kiritng"))
+def daraja (c):
+    return lambda a: c**a
+kub=daraja(a)
+print(a,f'0 ni darajasi  {kub(0)} ga teng')
+print(a,f'1 ni darajasi  {kub(1)} ga teng')
+print(a,f'2 ni darajasi  {kub(2)} ga teng')
+print(a,f'3 ni darajasi  {kub(3)} ga teng')
+print(a,f'4 ni darajasi  {kub(4)} ga teng')
+print(a,f'5 ni darajasi  {kub(5)} ga teng')
+print(a,f'6 ni darajasi  {kub(6)} ga teng')
+print(a,f'7 ni darajasi  {kub(7)} ga teng')
+print(a,f'8 ni darajasi  {kub(8)} ga teng')
+print(a,f'9 ni darajasi  {kub(9)} ga teng')
+print(a,f'10 ni darajasi {kub(10)} ga teng')

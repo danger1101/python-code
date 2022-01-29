@@ -1,0 +1,4 @@
+w = int(input ("1 son"))
+q = int(input("2 son"))
+a = lambda a,b: a if a  > b else b
+print(a(w,q))

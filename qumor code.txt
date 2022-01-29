@@ -1,0 +1,28 @@
+# a = "12300"
+# b = "123400"
+# c = "1234500"
+a = int(input("siz"))
+bot = {1000,6363,36,100}
+c = bot.pop()
+print("siz" , a, "bot", c)
+if a==c:
+    print("DURANG")
+elif a>c:
+    print("YUTINGIZ")
+else:
+    print("YUTQAZDINGIZ")
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

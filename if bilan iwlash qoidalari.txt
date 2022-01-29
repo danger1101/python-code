@@ -1,0 +1,51 @@
+a = int(input("balingizni kiritng"))
+if a>60:
+    print("imtxondan otingiz")
+
+imtxon sorovnoma
+
+a = int(input("balingizni kiritng"))
+if a>60:
+    print("imtxondan otingiz")
+ikkalasiyam
+
+a = int(input("balingizni kiritng"))
+if a>50:
+    print("imtxondan otingiz")
+if a < 60:    
+    print("yiqildingiz")
+    
+60da kelib ciqiwi ucn
+
+a = int(input("balingizni kiritng"))
+if a>=50:
+    print("imtxondan otingiz")
+if a < 50:    
+   print("yiqildingiz")
+50 ham ciqiwi ucun oddiygina = qoysak boldi
+
+
+a = int(input("ball kiritng"))
+if a > 100 or a < 0:
+    print("mavjud bolmagan raqam")
+elif a > 60:
+    print("otingiz")
+else:
+    print("yiqildingiz")
+ozida kichikni yizmaymiz elis qoysak ozidan kicigini oladi
+
+
+a = str(input("parolni kiritng"))
+if a == "123":
+    print("men umarov abdulbositman yoshm 16 da 2005 yilman gmail kodm blacknet931")
+else:
+    print("mavjud bolmagan raqam")
+kodlash
+
+
+a = ["a","b"]
+a . insert (0,"c")
+print(a)
+lis da malumot qoshiw
+
+    

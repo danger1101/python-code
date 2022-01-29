@@ -1,0 +1,10 @@
+def a (s,rangi, narxi, modeli, tezligi):
+    avto = {
+            "rang": "Qizil",
+            "model": "GM",
+            "tezlik": "122",
+            "narx": "14444"
+            
+            }
+    return avto
+print(a(input("kiriting"),"rangi", "narxi", "modeli", "tezligi"))

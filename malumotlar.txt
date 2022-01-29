@@ -1,0 +1,58 @@
+chaqiruv
+indeks yordamida malumot olinadi hohlagan joyda qoyadi
+APPEND lisga malumot qowadi malumotga qowadi
+append buyrugi lisda lisning oxiriga malumot qowadi
+insert xoxlagan joyga qowadi
+
+a = ["python","java","c++","androit"]
+print(a [-3:-1])
+qowiw uchun
+
+extend()
+buyrugi lisda bitta lisni ikkincisiga qowadi
+ 
+a = ["androit","c++"]
+b = ["a","b","c"]
+a . extend(b)
+print(a)
+
+lisni qowiw wunday
+
+tqrtibli holat
+qanday yozsa wunday ciqadi
+
+lis 
+ozgaruvcan
+
+remove lidan belgilangan malumotni olib tawaydi
+
+son = ["androit","c++"]
+son.remove("c++")
+print(son)
+
+kesib tawlaw
+
+pop buyrug
+lisdan malumot alib tawaydi indeks holatda oladi 
+pop 2 funksiya
+lista pop buyrugu indeksda soz olib tawadi
+pop indekssiz ham soz olib tawadi
+son = ["androit","c++"]
+son.pop()
+print(son)
+oxiridagini oladi xolos
+
+del buyrugi
+lisni butulay ucirit tawaydi
+son = ["androit","c++"]
+del son
+
+kop lisda keremasini wunday belgilaymiz
+del ni ikkinci buyrugi indeks orqali olib tawaydi
+
+son = ["androit","c++"]
+del son [0]
+print(son)
+
+wunday
+

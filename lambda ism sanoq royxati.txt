@@ -1,0 +1,3 @@
+ism  = ["nodra","ali","aziz"]
+ism.sort(key = lambda x:len(x))
+print(ism)

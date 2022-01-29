@@ -1,0 +1,19 @@
+class biznes:
+    def malumot(self, ism, famila, oyligi):
+        self.ism = ism, famila, oyligi
+
+ism = biznes()
+aa = biznes()
+tt = biznes()
+man = biznes()
+ss = biznes()
+
+
+ism.malumot = ("nurillo", "sayfidinov", 1200)
+aa.malumot = ("abdulaziz","ubaydilayev",5000)
+tt.malumot = ("abdulbosit","tojidinov",6000)
+man.malumot = ("abdulbosit","umarov",100000000000000000,"$")
+ss.malumot = ("azimjon","jorayev",10000003664)
+print("malumot",tt.malumot)
+
+
